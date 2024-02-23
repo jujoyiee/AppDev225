@@ -1,0 +1,131 @@
+<?xml version="2.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Doctors/Providers you can book:"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:text="NAME:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:text="EXPERIENCE:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:src="@drawable/img_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:text="NAME:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:text="EXPERIENCE:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:src="@drawable/img_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:text="NAME:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:text="EXPERIENCE:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
